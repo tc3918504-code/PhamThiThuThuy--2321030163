@@ -1,0 +1,10 @@
+#Kết quả bài toán (module1)
+import module1
+a = float(input("Nhập chiều dài: "))
+b = float(input("Nhập chiều rộng: "))
+print("Diện tích HCN: ", module1.dtich_hcn(a, b))
+print("Chu vi HCN: ", module1.chuvi_hcn(a, b))
+c = float(input("Nhập cạnh hình vuông: "))
+print("Diện tích HV: ", module1.dtich_hv(c))
+r = float(input("Nhập bán kính hình tròn: "))
+print("Diện tích hình tròn: ", module1.dtich_htron(r))
